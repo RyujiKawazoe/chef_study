@@ -4,6 +4,10 @@ DEPENDENCIES
     path: site-cookbooks/nginx
   ruby-env
     path: site-cookbooks/ruby-env
+  timezone
+    git: https://github.com/RyujiKawazoe/cookbooks.git
+    revision: accf84f2360bd4d4fb8807def56f053a984a9abf
+    rel: timezone
   yum-epel (~> 0.6.0)
 
 GRAPH
@@ -23,6 +27,7 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  timezone (0.0.3)
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   yum (3.5.3)
