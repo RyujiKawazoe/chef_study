@@ -8,3 +8,6 @@ default['ruby-env']['ruby-build']['branch'] = "master"
 
 #rbenv-gem-rehash
 default['ruby-env']['rbenv-gem-rehash_url'] = "https://github.com/sstephenson/rbenv-gem-rehash.git"
+
+#rbenv-default-gems
+default['ruby-env']['rbenv-default-gems_url'] = "https://github.com/sstephenson/rbenv-default-gems.git"
