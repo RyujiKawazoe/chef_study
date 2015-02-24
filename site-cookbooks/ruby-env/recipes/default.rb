@@ -52,6 +52,13 @@ git "/home/#{node['ruby-env']['user']}/.rbenv/plugins/rbenv-gem-rehash" do
   group node["ruby-env"]["group"]
 end
 
+git "/home/#{node['ruby-env']['user']}/.rbenv/plugins/rbenv-default-gems" do
+  repository node['ruby-env']['rbenv-default-gems_url']
+  action :sync
+  user node["ruby-env"]["user"]
+  group node["ruby-env"]["group"]
+end
+
 execute "rbenv install #{node['ruby-env']['version']}" do
   command "/home/#{node['ruby-env']['user']}/.rbenv/bin/rbenv install #{node['ruby-env']['version']}"
   user node['ruby-env']['user']
