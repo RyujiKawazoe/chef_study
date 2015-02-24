@@ -25,6 +25,13 @@ gems
 $ bundle install
 ~~~
 
+add community cookbooks
+---
+
+~~~
+$ bundle exec berks vendor cookbooks
+~~~
+
 how to run
 ---
 
