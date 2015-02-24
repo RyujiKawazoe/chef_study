@@ -28,6 +28,7 @@ Vagrant.configure(2) do |config|
       recipe[nginx]
       recipe[git]
       recipe[ruby-env]
+      recipe[timezone]
     ]
   end
 end
