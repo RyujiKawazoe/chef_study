@@ -9,6 +9,9 @@ http_proxy=***
 https_proxy=***
 ~~~
 
+ruby version 2.2.0
+vagrant version 1.7.1
+
 vagrant plugins
 ---
 
