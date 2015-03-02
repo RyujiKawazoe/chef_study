@@ -41,3 +41,21 @@ how to run
 ~~~
 $ vagrant up --provision
 ~~~
+
+
+Serverspec
+---
+
+* setup ssh
+  
+  起動状態で以下
+
+  ~~~
+  vagrant ssh-config --host develop2015 >> ~/.ssh/config
+  ~~~
+
+* run serverspec 
+
+  ~~~
+  bundle exec rake spec
+  ~~~
