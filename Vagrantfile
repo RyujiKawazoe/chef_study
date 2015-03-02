@@ -5,9 +5,6 @@ Vagrant.configure(2) do |config|
 
   require 'vagrant-vbguest' unless defined? config.vbguest
   config.vbguest.auto_update = true
-
-  p ENV["http_proxy"]
-  p ENV["https_proxy"]
   
   config.proxy.http     = ENV["http_proxy"]
   config.proxy.https    = ENV["https_proxy"]
