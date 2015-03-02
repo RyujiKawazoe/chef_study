@@ -70,7 +70,7 @@ GEM
       ffi (~> 1.5)
       libyajl2 (~> 1.2)
     hashie (2.1.2)
-    highline (1.7.0)
+    highline (1.7.1)
     hitimes (1.2.2)
     ipaddress (0.8.0)
     json (1.8.2)
@@ -170,7 +170,7 @@ GEM
     solve (1.2.1)
       dep_selector (~> 1.0)
       semverse (~> 1.1)
-    specinfra (2.17.0)
+    specinfra (2.17.1)
       net-scp
       net-ssh
     systemu (2.6.4)
